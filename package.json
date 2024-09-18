@@ -28,7 +28,7 @@
   "start": "next start",
   
     
-  "lint": "next lint",
+  "lint": "eslint . --cache --fix",
   
     
   "prepare": "husky",
@@ -70,6 +70,9 @@
   
     
   "eslint-config-prettier": "^9.1.0",
+  
+    
+  "eslint-plugin-jest": "^28.8.3",
   
     
   "eslint-plugin-prettier": "^5.2.1",
