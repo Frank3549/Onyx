@@ -5,7 +5,6 @@ function Home() {
     <div>
       <h2>Welcome to Onyx Coffee Lab!</h2>
     </div>
-    
   );
 }
 

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "southern weather",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/southernweather_1200x.webp?v=1724682333",
+        "price": 19,
+        "flavors": ["milk chocolate", "plum", "candied walnuts", "juicy & citrus finish"],
+        "roast": "moderate"
+    },
+    {
+        "id": 2,
+        "name": "geometry",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/geometry_1200x.webp?v=1724360908",
+        "price": 20,
+        "flavors": ["berries", "stone fruit", "earl grey", "honeysuckle", "round"],
+        "roast": "light"
+    },
+    {
+        "id": 3,
+        "name": "southern weather",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/southernweather_1200x.webp?v=1724682333",
+        "price": 19,
+        "flavors": ["milk chocolate", "plum", "candied walnuts", "juicy & citrus finish"],
+        "roast": "moderate"
+    },
+    {
+        "id": 4,
+        "name": "geometry",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/geometry_1200x.webp?v=1724360908",
+        "price": 20,
+        "flavors": ["berries", "stone fruit", "earl grey", "honeysuckle", "round"],
+        "roast": "light"
+    },
+    {
+        "id": 5,
+        "name": "southern weather",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/southernweather_1200x.webp?v=1724682333",
+        "price": 19,
+        "flavors": ["milk chocolate", "plum", "candied walnuts", "juicy & citrus finish"],
+        "roast": "moderate"
+    },
+    {
+        "id": 6,
+        "name": "geometry",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/geometry_1200x.webp?v=1724360908",
+        "price": 20,
+        "flavors": ["berries", "stone fruit", "earl grey", "honeysuckle", "round"],
+        "roast": "light"
+    },
+    {
+        "id": 7,
+        "name": "southern weather",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/southernweather_1200x.webp?v=1724682333",
+        "price": 19,
+        "flavors": ["milk chocolate", "plum", "candied walnuts", "juicy & citrus finish"],
+        "roast": "moderate"
+    },
+    {
+        "id": 8,
+        "name": "geometry",
+        "image": "https://onyxcoffeelab.com/cdn/shop/files/geometry_1200x.webp?v=1724360908",
+        "price": 20,
+        "flavors": ["berries", "stone fruit", "earl grey", "honeysuckle", "round"],
+        "roast": "light"
+    }
+]
