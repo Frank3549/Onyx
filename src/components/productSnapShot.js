@@ -1,5 +1,7 @@
+import {useRouter} from "next/navigation"
 
 function ProductSnapShot({ product }) {
+  const router = useRouter();
 
   const formatFlavors = (flavors) => {
     if (flavors.length > 1) {
@@ -9,10 +11,14 @@ function ProductSnapShot({ product }) {
     }
   };
 
+  const goToProductPage = (productId) => {
+    router.push(`/coffee/${productId}`)
+  }
+
   return (
     <div className="productSnapShot viewThreeColumn">
 
-      <img className="productSnapShotImage" src={product.image} alt={product.name} />
+      <img className="productSnapShotImage" src={product.image} alt={product.name} onClick={() => goToProductPage(product.id)}/>
       <p className="productTitle">{product.name} <span className="productTitle price">{"$" + product.price}</span></p>
       <div className = "notes">
         <p>{formatFlavors(product.flavors)}</p> 
