@@ -1,3 +1,4 @@
+"use client";
 import {useRouter} from "next/navigation"
 
 function ProductSnapShot({ product }) {
@@ -19,10 +20,12 @@ function ProductSnapShot({ product }) {
     <div className="productSnapShot viewThreeColumn">
 
       <img className="productSnapShotImage" src={product.image} alt={product.name} onClick={() => goToProductPage(product.id)}/>
-      <p className="productTitle">{product.name} <span className="productTitle price">{"$" + product.price}</span></p>
-      <div className = "notes">
-        <p>{formatFlavors(product.flavors)}</p> 
-        <p>{"Roast Level: " + product.roast}</p>
+      <div onClick={() => goToProductPage(product.id)}>
+        <p className="productTitle">{product.name} <span className="productTitle price">{"$" + product.price}</span></p>
+        <div className = "notes" onClick={() => goToProductPage(product.id)}>
+          <p>{formatFlavors(product.flavors)}</p> 
+          <p>{"Roast Level: " + product.roast}</p>
+        </div>
       </div>
 
     </div>

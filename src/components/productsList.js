@@ -1,3 +1,4 @@
+"use client";
 import ProductSnapShot from "./productSnapShot";
 
 function ProductList({products}) {

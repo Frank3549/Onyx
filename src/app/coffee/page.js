@@ -1,3 +1,4 @@
+"use client";
 import ProductHeader from "../../components/header";
 import ProductList from "../../components/productsList";
 import productData from "../../../data/productDescription.json";
