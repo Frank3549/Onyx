@@ -13,6 +13,32 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Bajern";
+  src: url("/fonts/Bajern/Bajern.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kapra";
+  src: url("/fonts/Kapra/Kapra.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.room-205 {
+  font-family: "Room-205", sans-serif;
+}
+
+.bajern {
+  font-family: "Bajern", sans-serif;
+}
+
+.kapra {
+  font-family: "Kapra", sans-serif;
+}
+
 :root {
   --background: #faf9f8;
   color: #000000;
@@ -64,9 +90,7 @@ a {
 
 }
 
-.room-205 {
-  font-family: "Room-205", sans-serif;
-}
+
 
 .productSnapShot {
   display: flex;
@@ -138,3 +162,34 @@ a {
   margin-right: 1.5rem;
 }
 
+.mainTitle {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+
+.mainTitle > h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Bajern", sans-serif;
+  white-space: nowrap;
+
+}
+
+.mainTitle > p > span{
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: "Kapra", sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+.productPage{
+  background-color: #2b292a;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 2rem;
+}
