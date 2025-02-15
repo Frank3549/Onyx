@@ -174,12 +174,13 @@ a {
   font-weight: 400;
   font-family: "Bajern", sans-serif;
   white-space: nowrap;
+  padding-bottom: 0.5rem;
 
 }
 
 .mainTitle > p > span{
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 12px;
   font-family: "Kapra", sans-serif;
   text-transform: uppercase;
@@ -191,5 +192,14 @@ a {
   background-color: #2b292a;
   min-height: 100vh;
   width: 100%;
-  padding-top: 2rem;
+  padding-top: 6.5rem;
+}
+
+.productPagePhoto {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 5rem;
+  height: 100%;
+  margin: 0 auto;
 }
