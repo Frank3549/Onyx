@@ -20,13 +20,13 @@ export default function ProductPage() {
               <p><span>{productData.tastingNotes.join(" | ")}</span></p>
             </div>
 
-            <div>
+            <div class= "productPagePhoto">
               <Image 
-                className="productPagePhoto" 
+                class= "productPagePhoto__image"
                 src={productData.image} 
                 alt={productData.name + " image"} 
-                width={450} 
-                height={500}
+                width={700} 
+                height={700}
                 />
             </div>
 
