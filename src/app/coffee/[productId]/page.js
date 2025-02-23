@@ -14,19 +14,21 @@ export default function ProductPage() {
     const [selectedSize, setSelectedSize] = useState(sizeOptions[1]); // default to 10oz
 
     return (
-        <div className="productPage">
-            <div className = "mainTitle">
+        <div className="product-page">
+            <div className = "main-title">
               <h1>{productData.name}</h1>
-              <p><span>{productData.tastingNotes.join(" | ")}</span></p>
+              <div className="tasting-notes">
+                <p><span>{productData.tastingNotes.join(" | ")}</span></p>
+              </div>
             </div>
 
-            <div class= "productPagePhoto">
+            <div className= "image-container">
               <Image 
-                class= "productPagePhoto__image"
                 src={productData.image} 
                 alt={productData.name + " image"} 
-                width={700} 
-                height={700}
+                width={450} 
+                height={450}      
+                layout="responsive"
                 />
             </div>
 
